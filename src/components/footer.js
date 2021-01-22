@@ -24,8 +24,15 @@ function Footer () {
                         <li className="inline-block mr-4 mb-2"><Link className="underline" to='/coc'>Code of Conduct</Link></li>
                         <li className="inline-block mr-4 mb-2"><a className="underline" href='mailto:subh@iosconf.sg'>Contact: subh@iosconf.sg</a></li>
                         <li className="inline-block mr-4 mb-2"><a className="underline" href='https://www.meetup.com/Singapore-iOS-Dev-Scout-Meetup/'>iOS Dev Scout</a></li>
-                        <li className="inline-block mr-4 mb-2"><a className="underline" href='https://cu.sg/'>CU Society</a></li>
                         <li className="inline-block mr-4 mb-2"><Link className="underline" to='/faq'>Frequently Asked Questions</Link></li>
+                    </ul>
+                    <strong className="list-none text-sm text-white md:mx-auto p-4 md:px-8">Past Events</strong>
+                    <ul className="list-none text-sm text-white md:mx-auto p-4 md:px-8">
+                        <li className="inline-block mr-4 mb-2"><a target="_blank" rel="noreferrer" className="underline" href='https://2021.iosconf.sg'>iOS Conf SG - 2021</a></li>
+                        <li className="inline-block mr-4 mb-2"><a target="_blank" rel="noreferrer" className="underline" href='https://2020.iosconf.sg'>iOS Conf SG - 2020</a></li>
+                        <li className="inline-block mr-4 mb-2"><a target="_blank" rel="noreferrer" className="underline" href='https://2019.iosconf.sg'>iOS Conf SG - 2018</a></li>
+                        <li className="inline-block mr-4 mb-2"><a target="_blank" rel="noreferrer" className="underline" href='https://2017.iosconf.sg'>iOS Conf SG - 2017</a></li>
+                        <li className="inline-block mr-4 mb-2"><a target="_blank" rel="noreferrer" className="underline" href='http://2016.iosconf.sg'>iOS Conf SG - 2016</a></li>
                     </ul>
                 </div>
                 <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">

@@ -43,14 +43,13 @@ export default FaqPage;
 const data = [
   {
     id: 1,
-    question: "What is the focus of iOS Conf SG - 2021?",
-    answer:
-      "SwiftUI has matured this year. We also have new ways to engage our users through App Clips and Widgets.<br/><br/>We will have some talks related to practical applications of these technologies.<br/><br/>However, the main focus of the conference is still to provide tools and techniques to iOS developers that they can use to build mobile applications with the highest quality.<br/><br/>We try not to keep too many beginner talks and emphasize more on knowledge sharing based on the expertise of the speakers.",
+    question: "What is the focus of iOS Conf SG - 2022?",
+    answer: "SwiftUI has matured over the last few years. iOS 15 SDK introduces dozens of new APIs.<br/><br/>We will have some talks related to practical applications of these technologies.<br/><br/>However, the main focus of the conference is still to provide tools and techniques to iOS developers that they can use to build mobile applications with the highest quality.<br/><br/>We try not to keep too many beginner talks and emphasise more on knowledge sharing based on the expertise of the speakers.",
   },
   {
     id: 2,
     question: "Where will the conference be held?",
-    answer: "iOS Conf SG - 2021 will be a virtual conference that you can attend online in the comfort of your home.<br/><br/>All you need is a good Internet connection and a Mac / iPad that has zoom installed on it.",
+    answer: "Due to the COVID-19 related travel restrictions and quarantine protocols in Singapore, iOS Conf SG - 2022 will still be a remote conference on zoom. You can attend online in the comfort of your home.<br/><br/>All you need is a good Internet connection and a Mac / iPad that has zoom installed on it.",
   },
   {
     id: 3,
@@ -67,7 +66,7 @@ const data = [
   {
     id: 5,
     question: "What is the requirement for the room setup?",
-    answer: "<strong>Turn your webcam on</strong><br/>We encourage all participants to turn-on their webcams to get the maximum value out of the conference. Keeping the energy high in a virtual event is extremely important. We will have different games and physical exercises throughout the conference.<br/><br/>By turning on your webcam, you let other participants feed on your energy and vice versa. We promise it will be a mad fun week that you will remember for a long time.<br/><br/><strong>Keep the house neat and clean</strong><br/>Make sure the environment is friendly for other participants who will get to see your live feed. We encourage keeping the background clean.<br/><br/><strong>Have space to move</strong><br/>We will have a few fun exercises to ensure your energy doesn't drop. Hence make sure you have some space to move around the room.<br/><br/><strong>Zoom background</strong><br/>You may use zoom background. But do not use a video background. We will provide an official iOS Conf SG zoom background that you may consider to use.",
+    answer: "<strong>Turn your webcam on</strong><br/>We encourage all participants to turn-on their webcams to get the maximum value out of the conference. Keeping the energy high in a virtual event is extremely important. We will have different games throughout the conference.<br/><br/>By turning on your webcam, you let other participants feed on your energy and vice versa. We promise it will be a mad fun week that you will remember for a long time.<br/><br/><strong>Keep the house neat and clean</strong><br/>Make sure the environment is friendly for other participants who will get to see your live feed. We encourage keeping the background clean.<br/><br/>You may use zoom background. But do not use a video background. We will provide an official iOS Conf SG zoom background that you may consider to use.",
   },
   {
     id: 6,

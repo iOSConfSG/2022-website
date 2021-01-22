@@ -82,10 +82,10 @@ function ScheduleSection (props) {
   return (
     <>
       <Tabs defaultSelected={'day1'} currentTab={selectedTab}>
-        <Tabs.Tab labelKey='workshop1'>18 January</Tabs.Tab>
-        <Tabs.Tab labelKey='workshop2'>19 January</Tabs.Tab>
-        <Tabs.Tab labelKey='day1'>21 January</Tabs.Tab>
-        <Tabs.Tab labelKey='day2'>22 January</Tabs.Tab>
+        <Tabs.Tab labelKey='workshop1'>17 January</Tabs.Tab>
+        <Tabs.Tab labelKey='workshop2'>18 January</Tabs.Tab>
+        <Tabs.Tab labelKey='day1'>20 January</Tabs.Tab>
+        <Tabs.Tab labelKey='day2'>21 January</Tabs.Tab>
       </Tabs>
       <p className="text-sm mx-4 sm:mx-0">
         Times below are shown in your local time zone <strong>{localTimezone}</strong>.
@@ -99,7 +99,7 @@ function ScheduleSection (props) {
       <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
         <ScheduleTable schedule={localSchedule} tab={currentTab} {...props} />
       </div>
-      <p className="text-sm mx-4 sm:mx-0">Schedule may change without prior notice</p>
+      <strong><p className="text-sm mx-4 sm:mx-0">Schedule will be announced soon</p></strong>
     </>
   )
 
