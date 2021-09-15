@@ -179,7 +179,7 @@ function IndexPage () {
               Level up through workshops!
               </p>
             <p className="text-left">
-              A workshop on <strong>Multi-platform Development with SwiftUI</strong> by Malin Sundberg on Monday, 17 Jan 2022, 9 AM - 2 PM SGT. And <strong>Find vulnerabilities in iOS Apps</strong> by Sven Schleier on Tuesday, 18 Jan 2022, 1 PM - 6 PM SGT.
+              A workshop on <strong>Multi-platform Development with SwiftUI</strong> by Malin Sundberg on Monday, 18 Jan 2022, 9 AM - 2 PM SGT. And <strong>Find vulnerabilities in iOS Apps</strong> by Sven Schleier on Tuesday, 17 Jan 2022, 1 PM - 6 PM SGT.
               </p>
           </div>
         </div>
