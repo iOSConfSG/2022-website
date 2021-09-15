@@ -1,21 +1,23 @@
-const trainers = [
+const trainers = [  
   {
-    "name": "Daniel H Steinberg",
-    "company": "Dim Sum Thinking",
-    "imageUrl": "../speakers/daniel.jpg",
-    "companyUrl": "https://dimsumthinking.com",
-    "twitter": "dimsumthinking",
+    "name": "Malin Sundberg",
+    "company": "Orbit",
+    "imageUrl": "../speakers/malin.jpg",
+    "companyUrl": "https://timeinorbit.com",
+    "twitter": "malinsundberg",
     "linkedin": "",
-    "bio": "Daniel is the author of more than a dozen books including the best selling books A Functional Programming Kickstart, A SwiftUI Kickstart, A Swift Kickstart and Dear Elena. He presents iOS, Functional Programming, SwiftUI, and Swift training and consults through his company Dim Sum Thinking. He has written apps for the iPhone and the iPad since the SDKs first appeared and has written programs for the Mac all the way back to System 7. When he's not coding or talking about coding for the Mac, the iPhone, and the iPad he's probably cooking, baking bread, or hanging out with friends."
+    "shortBio": "Malin is an iOS and macOS developer who decided to go full in on SwiftUI when creating her app Orbit for the Mac, iPhone, and iPad. She will conduct a workshop on Multi-platform Development with SwiftUI.",
+    "bio": "Malin is an indie developer working on an app called Orbit, and co-founder of Triple Glazed Studios. Being one half of a two-person team, Malin keeps herself busy developing apps and backends (using server-side Swift and Vapor), designing apps, product pages, icons, and other app artwork. Malin is also passionate about the development community and regularly organizes local meetups in Vancouver, Canada. She also chats about tech and indie development on the Cup of Tech podcast."
   },
   {
-    "name": "Vincent Pradeilles",
-    "company": "Worldline",
-    "imageUrl": "../speakers/vincent.jpg",
-    "companyUrl": "https://worldline.com",
-    "twitter": "v_pradeilles",
+    "name": "Sven Schleier",
+    "company": "F-Secure",
+    "imageUrl": "../speakers/sven.jpg",
+    "companyUrl": "https://www.f-secure.com/en",
+    "twitter": "bsd_daemon",
     "linkedin": "",
-    "bio": "Vincent is a lead iOS developer, at Worldline, Lyon 🇫🇷 He started doing iOS development back in 2011 and for the last two years he has been working on the iOS apps of major French banks."
+    "shortBio": "Sven is the Technical Director of F-Secure, Singapore and has hands-on experience in attacking and defending web and mobile apps for the last 10+ years. He will conduct a workshop on Finding vulnerabilities in iOS Apps.",
+    "bio": "Sven is the Technical Director of F-Secure, Singapore and has hands-on experience in attacking and defending web and mobile apps for the last 10+ years. He became specialised in Application Security and has supported and guided software development projects for Mobile and Web Applications during the whole SDLC."
   }
 ]
 

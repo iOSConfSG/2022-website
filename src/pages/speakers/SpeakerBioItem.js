@@ -22,15 +22,14 @@ function SpeakerBioItem (props) {
               <p className="text-orange-600 text-center">
                 <a href={speaker.companyUrl} target="_blank" rel="noopener noreferrer">{speaker.company}</a>
               </p>
-              {
-                speaker.bio &&
-                <p className="text-sm font-light">{limitString(speaker.bio, 100)}</p>
-              }
               <div className="flex justify-center">
-                {hasTwitter && <Link to={`https://www.twitter.com/${speaker.twitter}`}><FontAwesomeIcon size="1x" icon={faTwitter} /></Link>}
+                {hasTwitter && <Link to={`https://www.twitter.com/${speaker.twitter}`}><FontAwesomeIcon size="1x" icon={faTwitter} /> @{speaker.twitter}</Link>}
                 {hasLinkedIn && <Link className="ml-1" to={`https://www.linkedin.com/${speaker.linkedin}`}><FontAwesomeIcon size="1x" icon={faLinkedin} /></Link>}
               </div>
-
+              {
+                speaker.bio &&
+                <p className="text-sm font-light">{speaker.shortBio}</p>
+              }              
             </div>
           </div>
         </>
@@ -48,17 +47,10 @@ SpeakerBioItem.propTypes = {
     twitter: PropTypes.string,
     linkedin: PropTypes.string,
     bio: PropTypes.string,
+    shortBio: PropTypes.string,
     talkTitle: PropTypes.string,
   }),
   handleClick: PropTypes.func.isRequired
 }
 
 export default SpeakerBioItem
-
-function limitString (text, maxLength) {
-  if (text.length > maxLength - 3) {
-    return text.substring(0, maxLength).trimEnd() + "..."
-  } else {
-    return text
-  }
-}
