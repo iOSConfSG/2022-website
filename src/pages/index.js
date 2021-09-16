@@ -151,13 +151,13 @@ function IndexPage () {
         <div className="max-w-4xl lg:mx-auto grid lg:grid-cols-3 lg:gap-x-5 mt-16">
           <div>
             <div className="text-left">
-              <span className="inline-flex rounded-full bg-indigo-100 text-indigo-800 px-3">Early Bird Tickets</span>
+              <span className="inline-flex rounded-full bg-indigo-100 text-indigo-800 px-3">Early-bird Tickets</span>
             </div>
             <p className="text-xl font-semibold text-left">
               Get it while you can!
               </p>
             <p className="text-left">
-              Early Bird tickets are available until 15th November 2022. Choose a ticket for both conference plus workshop (S$220) or conference only (S$70).
+              Early-bird tickets are available until 15th November 2022. Choose a ticket for both conference plus workshop (S$220) or conference only (S$70).
               </p>
           </div>
           <div>
