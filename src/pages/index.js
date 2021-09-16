@@ -41,7 +41,7 @@ function IndexPage () {
   return (
     <Layout>
       <Helmet>
-        <script key="tito" src='https://js.tito.io/v1' async></script>
+        <script src='https://js.tito.io/v2' async></script>
       </Helmet>
       <SEO
         keywords={[`ios`, `ios conference`, `iosConf Singapore`, `ios developer`]}
@@ -147,7 +147,7 @@ function IndexPage () {
             Tickets
           </h2>
         </div>
-        <tito-widget event="iosconfsg/2021"></tito-widget>
+        <tito-widget event="ios-conf-sg/2022"></tito-widget>
         <div className="max-w-4xl lg:mx-auto grid lg:grid-cols-3 lg:gap-x-5 mt-16">
           <div>
             <div className="text-left">
