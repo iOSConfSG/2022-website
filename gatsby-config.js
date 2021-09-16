@@ -6,7 +6,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `iOS Conf SG`,
-    description: `The largest iOS developer conference in Southeast Asia. Early Bird tickets are available until 15th December!`,
+    description: `The largest iOS developer conference in Southeast Asia. Early-bird tickets are available until 15th November 2022!`,
     siteUrl: `https://2022.iosconf.sg`,
     author: `@vinamelody`,
   },

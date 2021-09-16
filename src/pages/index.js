@@ -41,7 +41,7 @@ function IndexPage () {
   return (
     <Layout>
       <Helmet>
-        <script key="tito" src='https://js.tito.io/v1' async></script>
+        <script src='https://js.tito.io/v2' async></script>
       </Helmet>
       <SEO
         keywords={[`ios`, `ios conference`, `iosConf Singapore`, `ios developer`]}
@@ -147,17 +147,17 @@ function IndexPage () {
             Tickets
           </h2>
         </div>
-        <tito-widget event="iosconfsg/2021"></tito-widget>
+        <tito-widget event="ios-conf-sg/2022"></tito-widget>
         <div className="max-w-4xl lg:mx-auto grid lg:grid-cols-3 lg:gap-x-5 mt-16">
           <div>
             <div className="text-left">
-              <span className="inline-flex rounded-full bg-indigo-100 text-indigo-800 px-3">Early Bird Tickets</span>
+              <span className="inline-flex rounded-full bg-indigo-100 text-indigo-800 px-3">Early-bird Tickets</span>
             </div>
             <p className="text-xl font-semibold text-left">
               Get it while you can!
               </p>
             <p className="text-left">
-              Early Bird tickets are available until 15th November 2022. Choose a ticket for both conference plus workshop (S$220) or conference only (S$70).
+              Early-bird tickets are available until 15th November 2022. Choose a ticket for both conference plus workshop (S$220) or conference only (S$70).
               </p>
           </div>
           <div>
@@ -179,8 +179,8 @@ function IndexPage () {
               Level up through workshops!
               </p>
             <p className="text-left">
-              A workshop on <strong>Multi-platform Development with SwiftUI</strong> by Malin Sundberg on Monday, 18 Jan 2022, 9 AM - 2 PM SGT. And <strong>Find vulnerabilities in iOS Apps</strong> by Sven Schleier on Tuesday, 17 Jan 2022, 1 PM - 6 PM SGT.
-              </p>
+              A workshop on <strong>Find vulnerabilities in iOS Apps</strong> by Sven Schleier on Tuesday, 17 Jan 2022, 1 PM - 6 PM SGT. And <strong>Multi-platform Development with SwiftUI</strong> by Malin Sundberg on Monday, 18 Jan 2022, 9 AM - 2 PM SGT.
+            </p>
           </div>
         </div>
       </section>
