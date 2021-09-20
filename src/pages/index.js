@@ -157,7 +157,7 @@ function IndexPage () {
               Get it while you can!
               </p>
             <p className="text-left">
-              Early-bird tickets are available until 15th November 2022. Choose a ticket for both conference plus workshop (S$220) or conference only (S$70).
+              Early-bird tickets are available until 15th November 2021. Choose a ticket for both conference plus workshop (S$220) or conference only (S$70).
               </p>
           </div>
           <div>
