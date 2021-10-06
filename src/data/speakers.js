@@ -59,6 +59,36 @@ const speakers = [
     "linkedin": "",
     "shortBio": "Vincent works at Worldline and contributes to building great apps for major French banks. He also enjoys sharing about Swift and iOS on his YouTube channel.",
     "bio": "Vincent started working on iOS apps back in 2011. For the last years, he's been working at Worldline, where he contributes to building great apps for major French banks. He loves Swift and enjoys sharing about it on the Internet. Most recently, he started a YouTube channel to share his knowledge of Swift and iOS. He's also the one behind the Twitter account @ios_memes."
+  },
+  {
+    "name": "Frank Courville",
+    "company": "School of Swift",
+    "imageUrl": "../speakers/frank.jpeg",
+    "companyUrl": "https://www.schoolofswift.club",
+    "twitter": "Frankacy",
+    "linkedin": "",
+    "shortBio": "Frank is the chief instructor and content creator at School of Swift, helping teams skill up their iOS development.",
+    "bio": "Frank is the chief instructor and content creator at School of Swift, helping teams skill up their iOS development."
+  },
+  {
+    "name": "Bas Broek",
+    "company": "Swift Weekly Brief",
+    "imageUrl": "../speakers/bas.jpeg",
+    "companyUrl": "https://swiftweeklybrief.com",
+    "twitter": "basthomas",
+    "linkedin": "",
+    "shortBio": "Bas is an iOS and macOS developer with a passion for testability, accessibility and user-centric apps. He cares about communication and collaboration. He likes coffee and watches (a lot).",
+    "bio": "Bas is an iOS and macOS developer with a passion for testability, accessibility and user-centric apps. He cares about communication and collaboration. He likes coffee and watches (a lot)."
+  },
+  {
+    "name": "Ting Becker",
+    "company": "Rocket Mortgage",
+    "imageUrl": "../speakers/ting.jpg",
+    "companyUrl": "https://www.rocketmortgage.com",
+    "twitter": "Teekachu1",
+    "linkedin": "",
+    "shortBio": "Tee is a self taught iOS developer who started in accounting but landed in tech. In her freetime, you can find her boxing, practicing muay thai, working on new jumprope tricks or just working out.",
+    "bio": "Tee is a self taught iOS developer who started in accounting but landed in tech. In her freetime, you can find her boxing, practicing muay thai, working on new jumprope tricks or just working out."
   }  
 ]
 
