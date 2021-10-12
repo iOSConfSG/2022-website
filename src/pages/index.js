@@ -51,7 +51,7 @@ function IndexPage () {
         <BrowserView>
           <div className="flex flex-col max-w-4xl mx-auto pl-4 py-24">
             <h1 className="text-4xl text-orange-500">iOS Conf SG - 2022</h1>
-            <h2 className="text-white text-xl">Virtual Edition</h2>
+            <h2 className="text-white text-xl"><strong>Remote Edition - Zoom, Singapore Time</strong></h2>
             <h3 className="text-white text-xl mb-0">Workshops - 17th and 18th January</h3>
             <h3 className="text-white text-xl mt-0">Conference - 20th and 21st January</h3>
             <a href="#ticket" className="bg-orange-500 w-1/3 text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
@@ -60,7 +60,7 @@ function IndexPage () {
         <MobileView>
           <div className="flex flex-col max-w-4xl pl-4 py-6">
             <h1 className="text-3xl text-orange-500">iOS Conf SG - 2022</h1>
-            <h2 className="text-white text-m">Virtual Edition</h2>
+            <h2 className="text-white text-m"><strong>Remote Edition - Zoom, Singapore Time</strong></h2>
             <h3 className="text-white text-xs mb-0">Workshops - 17th and 18th January</h3>
             <h3 className="text-white text-xs mt-0">Conference - 20th and 21st January</h3>
             <a href="#ticket" className="bg-orange-500 w-1/3 text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
