@@ -41,7 +41,7 @@ function IndexPage () {
   return (
     <Layout>
       <Helmet>
-        <script src='https://js.tito.io/v2' async></script>
+        <script src='https://js.tito.io/v1' async></script>
       </Helmet>
       <SEO
         keywords={[`ios`, `ios conference`, `iosConf Singapore`, `ios developer`]}
