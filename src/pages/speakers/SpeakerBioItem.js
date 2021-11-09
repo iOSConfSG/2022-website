@@ -23,7 +23,7 @@ function SpeakerBioItem (props) {
                 <a href={speaker.companyUrl} target="_blank" rel="noopener noreferrer">{speaker.company}</a>
               </p>
               <div className="flex justify-center">
-                {hasTwitter && <Link to={`https://www.twitter.com/${speaker.twitter}`}><FontAwesomeIcon size="1x" icon={faTwitter} /> @{speaker.twitter}</Link>}
+                {hasTwitter && <Link to={`https://www.twitter.com/${speaker.twitter}`} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="1x" icon={faTwitter} /> @{speaker.twitter}</Link>}
                 {hasLinkedIn && <Link className="ml-1" to={`https://www.linkedin.com/${speaker.linkedin}`}><FontAwesomeIcon size="1x" icon={faLinkedin} /></Link>}
               </div>
               {
