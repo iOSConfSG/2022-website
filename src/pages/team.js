@@ -18,10 +18,12 @@ function TeamPage() {
         <div className="bg-white">
           <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
             <p>
-            We are a bunch of nerds, crazy ones. We love iOS and are passionate about building apps in Swift. We are inspired and motivated by the technology and ecosystem Apple provides for developers. <br/> <br/> We believe that if we bring the power of these technologies to every iOS developer we know, we can contribute to building more innovative and better apps. So we started iOS Conf SG in 2015. Since then, the community has grown to make iOS Conf SG <strong>the largest iOS developer conference in South East Asia</strong>.
+            We, a team of developers like you, love iOS and are passionate about building apps in Swift. We are inspired and motivated by the technology and ecosystem Apple provides for developers. <br/> <br/> We believe that if we bring the power of these technologies to every iOS developer we know, we can contribute to building more innovative and better apps. So we started iOS Conf SG in 2015. Since then, the community has grown to make iOS Conf SG <strong>the largest iOS developer conference in South East Asia</strong>.
             </p> <br/>
 
             <p><strong>iOS Conf SG</strong> is recognised as <a href="https://www.hackingwithswift.com/awards" target="_blank" rel="noreferrer">a highly commended conference</a> by the Swift Community Awards. Participants find our event most interesting, insightful, or beneficial for their careers.</p>            
+            <br/>
+            <p><strong>IOS CONF SG PTE. LTD.</strong> is the registered entity under which we organise the event.</p>
           </div>
         </div>
       </section>

@@ -18,14 +18,14 @@ const organisers = [
       "imageUrl": "../organisers/vina.jpeg",
       "twitter": "vinamelody",
       "linkedin": "",
-      "bio": "Apps and Design"
+      "bio": "Zoom Master"
     },
     {
       "name": "Stefanie Seah",
       "imageUrl": "../organisers/stef.jpeg",
       "twitter": "stefanieseah",
       "linkedin": "",
-      "bio": "Games & Quizzes"
+      "bio": "Games"
     },
     {
       "name": "Kale Toh",
@@ -35,11 +35,25 @@ const organisers = [
       "bio": "Logistics"
     },
     {
-        "name": "Perwyl Liu",
-        "imageUrl": "../organisers/perwyl.jpeg",
-        "twitter": "",
-        "linkedin": "/in/perwyl-liu-b1283274",
-        "bio": "Zoom Master"
+      "name": "Perwyl Liu",
+      "imageUrl": "../organisers/perwyl.jpeg",
+      "twitter": "",
+      "linkedin": "/in/perwyl-liu-b1283274",
+      "bio": "Swag"
+    },
+    {
+      "name": "Swarup Santhanakrishnan",
+      "imageUrl": "../organisers/swarup.jpeg",
+      "twitter": "",
+      "linkedin": "/in/swarup-santhanakrishnan-42536363/",
+      "bio": "CFP"
+    },
+    {
+      "name": "Bunty Mandan",
+      "imageUrl": "../organisers/bunty.jpg",
+      "twitter": "buntylm",
+      "linkedin": "",
+      "bio": "CFP"
     },
 ]
 
