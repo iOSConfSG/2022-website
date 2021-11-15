@@ -14,6 +14,7 @@ import { Transition } from "@headlessui/react";
 import { Helmet } from "react-helmet"
 import { SpeakersData, TrainersData } from "~data"
 import logoSeagroup from "../images/logo-seagroup.png"
+import logoBitrise from "../images/logo-bitrise.png"
 import workshopImage from "../images/iosconfsg-workshop.jpg"
 import confImage from "../images/iosconf-team.jpeg"
 import sponsorDeck from "../downloads/sponsors-deck.pdf";
@@ -134,6 +135,15 @@ function IndexPage () {
           <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-left">
             <a href="https://www.seagroup.com/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoSeagroup} alt="SEA Group" /></a>  
           </div>                   
+        </div>
+        <br/>
+        <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
+          <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
+            Silver Sponsors
+          </h2>
+          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-left">
+            <a href="https://www.bitrise.io/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoBitrise} alt="Bitrise" /></a>
+          </div>
         </div>
         <br/> <br/>
         <div className="text-center w-full">

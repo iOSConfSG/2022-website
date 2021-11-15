@@ -42,9 +42,9 @@ const speakers = [
   },
   {
     "name": "Federico Zanetello",
-    "company": "Five Stars",
+    "company": "OOZOU",
     "imageUrl": "../speakers/federico.jpg",
-    "companyUrl": "https://www.fivestars.blog/",
+    "companyUrl": "https://oozou.com/",
     "twitter": "zntfdr",
     "linkedin": "",
     "shortBio": "Federico Zanetello has strong passion for Swift, minimalism, and design. He can be often found writing at fivestars.blog",
@@ -72,9 +72,9 @@ const speakers = [
   },
   {
     "name": "Bas Broek",
-    "company": "Swift Weekly Brief",
+    "company": "WeTransfer",
     "imageUrl": "../speakers/bas.jpeg",
-    "companyUrl": "https://swiftweeklybrief.com",
+    "companyUrl": "https://wetransfer.com",
     "twitter": "basthomas",
     "linkedin": "",
     "shortBio": "Bas is an iOS and macOS developer with a passion for testability, accessibility and user-centric apps. He cares about communication and collaboration. He likes coffee and watches (a lot).",
