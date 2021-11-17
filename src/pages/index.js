@@ -165,6 +165,10 @@ function IndexPage () {
           <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
             Tickets
           </h2>
+          <p className="text-center">
+              A <strong>limited-time discount</strong> is available now for <strong>50 tickets only</strong>. <br/> 
+              <strong>[Until stocks last]</strong>
+          </p>
         </div>
         <tito-widget event="ios-conf-sg/2022"></tito-widget>
         <div className="max-w-4xl lg:mx-auto grid lg:grid-cols-3 lg:gap-x-5 mt-16">
@@ -187,7 +191,9 @@ function IndexPage () {
               The 7th Edition of iOS Conf SG!
               </p>
             <p className="text-left">
-              From 16th November, the conference plus workshop ticket is S$350. Conference ticket is S$150.
+              A <strong>limited-time discount</strong> is available now for <strong>50 tickets only</strong>.
+              After the limited tickets are sold, regular tickets will be available on sale. 
+              The regular conference plus workshop ticket is S$350. Conference ticket is S$150.
               </p>
           </div>
           <div>
