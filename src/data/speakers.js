@@ -89,7 +89,17 @@ const speakers = [
     "linkedin": "",
     "shortBio": "Tee is a self taught iOS developer who started in accounting but landed in tech. In her freetime, you can find her boxing, practicing muay thai, working on new jumprope tricks or just working out.",
     "bio": "Tee is a self taught iOS developer who started in accounting but landed in tech. In her freetime, you can find her boxing, practicing muay thai, working on new jumprope tricks or just working out."
-  }, 
+  },
+  {
+    "name": "Danijela Vrzan",
+    "company": "Deloitte Canada",
+    "imageUrl": "../speakers/danijela.jpeg",
+    "companyUrl": "https://www2.deloitte.com/ca/en.html",
+    "twitter": "dvrzan",
+    "linkedin": "",
+    "shortBio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym.",
+    "bio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym. When not working out, she’s playing video-games, cooking, and trying to keep up with Swift updates!"
+  },
   {
     "name": "Vincent Pradeilles",
     "company": "Worldline",
@@ -99,7 +109,17 @@ const speakers = [
     "linkedin": "",
     "shortBio": "Vincent works at Worldline and contributes to building great apps for major French banks. He also enjoys sharing about Swift and iOS on his YouTube channel.",
     "bio": "Vincent started working on iOS apps back in 2011. For the last years, he's been working at Worldline, where he contributes to building great apps for major French banks. He loves Swift and enjoys sharing about it on the Internet. Most recently, he started a YouTube channel to share his knowledge of Swift and iOS. He's also the one behind the Twitter account @ios_memes."
-  },   
+  },
+  {
+    "name": "Pradnya Nikam",
+    "company": "Rakuten Viki",
+    "imageUrl": "../speakers/pradnya.jpeg",
+    "companyUrl": "https://www.viki.com",
+    "twitter": "pradnya_nikam",
+    "linkedin": "",
+    "shortBio": "Pradnya is an iOS engineer at Rakuten Viki. She loves all things coding, enjoys writing blog posts and reading classic novels.",
+    "bio": " Pradnya is an iOS engineer at Rakuten Viki. She loves all things coding, enjoys writing blog posts and reading classic novels."
+  }, 
   {
     "name": "Maciej Piotrowski",
     "company": "Allegro",
@@ -111,6 +131,16 @@ const speakers = [
     "bio": "Maciej is a passionate iOS developer who pays much attention to details and code quality. He likes improving things, always looking for better solutions because he's amazed that in the programming world, issues can be solved in 100s of ways. In 2016 he kicked off with his friends the swifting.io blog, where he has been posting his thoughts about various topics."
   },
   {
+    "name": "An Tran",
+    "company": "Grab",
+    "imageUrl": "../speakers/antran.jpeg",
+    "companyUrl": "https://www.grab.com/sg",
+    "twitter": "antranapp",
+    "linkedin": "",
+    "shortBio": "An is currently helping to build a digital Bank App at Grab. He loves sharing Swift contents on SwiftVietnam.com,  and reading rocket/space science books.",
+    "bio": "An is currently helping to build a digital Bank App at Grab, the biggest super app in South East Asia. He loves sharing Swift contents on SwiftVietnam.com,  and reading rocket/space science books."
+  },
+    {
     "name": "Moataz Nabil",
     "company": "Bitrise",
     "imageUrl": "../speakers/moataz.jpeg",
@@ -119,7 +149,7 @@ const speakers = [
     "linkedin": "",
     "shortBio": "Moataz is a developer advocate at Bitrise and has more than 12 years of experience across development and testing roles across industries including agriculture, telecom, healthcare, fashion, and more.",
     "bio": "Moataz is a developer advocate at Bitrise and has more than 12 years of experience across development and testing roles across industries including agriculture, telecom, healthcare, fashion, and more."
-  },     
+  },
 ]
 
 export default speakers
