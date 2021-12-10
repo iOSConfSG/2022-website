@@ -56,7 +56,7 @@ function TeamPage() {
               </li>
               <li>
                 Melvin Tan : +65 9337 9909 | {" "}
-                <a href="mailto:melvin&#64;me.com">melvin.tan@me.com</a>
+                <a href="mailto:melvin&#64;iosconf.sg">melvin@iosconf.sg</a>
               </li>
           </ul>
         </div> <br></br> 
