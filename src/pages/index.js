@@ -15,6 +15,7 @@ import { Helmet } from "react-helmet"
 import { SpeakersData, TrainersData } from "~data"
 import logoSeagroup from "../images/logo-seagroup.png"
 import logoRakutenViki from "../images/logo-rakuten-viki.png"
+import logoStream from "../images/logo-stream.svg"
 import logoBitrise from "../images/logo-bitrise.png"
 import workshopImage from "../images/iosconfsg-workshop.jpg"
 import confImage from "../images/iosconf-team.jpeg"
@@ -68,6 +69,49 @@ function IndexPage () {
             <a href="#ticket" className="bg-orange-500 w-1/3 text-center hover:bg-orange-600 text-white mt-2 px-4 py-2 border-gray-400 rounded shadow">Buy Tickets</a>
           </div>
         </MobileView>
+      </section>
+      <section id="sponsors" className="w-full py-24">
+        <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
+          <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
+            Gold Sponsors
+          </h2>          
+          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-left">
+            <a href="https://www.seagroup.com/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoSeagroup} alt="SEA Group" /></a>              
+          </div>          
+          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-left">
+            <a href="https://getstream.io/chat/sdk/swiftui/?utm_source=iOSConfSG&utm_medium=Whole_Event_V&utm_content=Developer&utm_campaign=iOSConfSG_Jan2022" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoStream} alt="Stream" /></a>  
+          </div>                              
+        </div>
+        <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
+          <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">            
+          </h2>
+          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-left">
+            <a href="https://www.viki.com/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoRakutenViki} alt="Rakuten Viki" /></a>  
+          </div>
+        </div>
+        <br/>
+        <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
+          <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
+            Silver Sponsors
+          </h2>
+          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-left">
+            <a href="https://www.bitrise.io/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoBitrise} alt="Bitrise" /></a>
+          </div>
+        </div>
+        <br/> <br/>
+        <div className="text-center w-full">
+          <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
+            Become A Sponsor
+          </h2>
+        </div>      
+        <div className="w-full">
+          <p className="mb-12 mx-auto text-center">
+            If you&apos;d like to support and engage our iOS community, please <a href="mailto:subh@iosconf.sg" className="text-orange-500">contact us</a> for more information. Thank you!
+          </p>
+          <p className="mb-12 mx-auto text-center">
+            <a href={sponsorDeck} className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 border-gray-400 rounded shadow">Download Sponsorship Deck</a>
+          </p>
+        </div>
       </section>
       <section className="w-full">
         <div className="flex flex-col flex-no-wrap md:flex-row">
@@ -127,42 +171,6 @@ function IndexPage () {
         <Transition show={showBio} appear={true} enter="ease-out duration-300" enterFrom="opacity-0" enterTo="opacity-100" leave="ease-in duration-200" leaveFrom="opacity-100" leaveTo="opacity-0">
           <SpeakerBioModal speaker={selectedSpeaker} handleClose={handleCloseBio} />
         </Transition>
-      </section>
-      <section id="sponsors" className="w-full py-24">
-      <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
-          <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
-            Gold Sponsors
-          </h2>
-          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-left">
-            <a href="https://www.seagroup.com/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoSeagroup} alt="SEA Group" /></a>  
-          </div>
-          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-left">
-            <a href="https://www.viki.com/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoRakutenViki} alt="Rakuten Viki" /></a>  
-          </div>                    
-        </div>
-        <br/>
-        <div className="flex flex-col md:flex-row lg:mx-auto justify-center max-w-4xl md:mx-8">
-          <h2 className="w-full md:w-1/3 my-auto text-3xl text-orange-600 text-center md:text-left mb-8">
-            Silver Sponsors
-          </h2>
-          <div className="w-full md:w-2/3 flex flex-col md:flex-row justify-left">
-            <a href="https://www.bitrise.io/" target="_blank" rel="noreferrer"><img className="h-24 my-4 ml-0 mr-8 object-contain flex-grow-0" src={logoBitrise} alt="Bitrise" /></a>
-          </div>
-        </div>
-        <br/> <br/>
-        <div className="text-center w-full">
-          <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
-            Become A Sponsor
-          </h2>
-        </div>      
-        <div className="w-full">
-          <p className="mb-12 mx-auto text-center">
-            If you&apos;d like to support and engage our iOS community, please <a href="mailto:subh@iosconf.sg" className="text-orange-500">contact us</a> for more information. Thank you!
-          </p>
-          <p className="mb-12 mx-auto text-center">
-            <a href={sponsorDeck} className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 border-gray-400 rounded shadow">Download Sponsorship Deck</a>
-          </p>
-        </div>
       </section>
       <section id="ticket" className="w-full py-24 bg-gray-100">
         <div className="text-center w-full">
