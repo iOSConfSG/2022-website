@@ -444,7 +444,7 @@ const schedule = [
       "speaker_image": "melvin",
       "speaker_name": "Melvin Tan",
       "speaker_twitter": "Melvin_tan",
-      "talk_description": "iOS Community in Singapore and plans for 2021.",
+      "talk_description": "iOS Community in Singapore and plans for 2022.",
       "talk_type": "openingAddress",
       "title": "Opening address"
     },
