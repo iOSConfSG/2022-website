@@ -8,13 +8,13 @@ import { ScheduleData } from "~data"
 const localTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone
 const SG_TIMEZONE = 'Asia/Singapore'
 
-function formatDate (stringDate, timezone) {
+function formatDate(stringDate, timezone) {
   if (timezone) {
     const rezoned = DateTime.fromISO(stringDate, { zone: timezone })
-    return rezoned.toLocaleString(DateTime.TIME_SIMPLE)
+    return rezoned.toLocaleString(DateTime.DATETIME_MED)
   } else {
     const dt = DateTime.fromISO(stringDate, { zone: localTimezone })
-    return dt.toLocaleString(DateTime.TIME_SIMPLE)
+    return dt.toLocaleString(DateTime.DATETIME_MED)
   }
 }
 const Schedule17 = ScheduleData.filter(event => event.activity === "iosconfsg22.workshop1")
@@ -27,8 +27,16 @@ const sgSchedule20 = rezoneSchedule(Conference20, SG_TIMEZONE)
 const sgSchedule21 = rezoneSchedule(Conference21, SG_TIMEZONE)
 
 const schedule = {
+  others: {
+    iosconfsg21: {
+      day1: rezoneSchedule(Conference20, localTimezone),
+      day2: rezoneSchedule(Conference21, localTimezone),
+      workshop1: rezoneSchedule(Schedule17, localTimezone),
+      workshop2: rezoneSchedule(Schedule18, localTimezone)
+    },
+  },
   sg: {
-    iosconfsg22: {
+    iosconfsg21: {
       day1: sgSchedule20,
       day2: sgSchedule21,
       workshop1: sgSchedule17,
@@ -42,7 +50,7 @@ function rezoneSchedule (schedule, timezone) {
     return {
       ...item,
       start_at: formatDate(item.start_at, timezone),
-      end_at: formatDate(item.end_at, timezone)
+      end_at: formatDate(item.end_at, timezone),
     }
   })
   return rezoned
@@ -50,36 +58,48 @@ function rezoneSchedule (schedule, timezone) {
 
 function selectScheduleForTab (currentTab, timezone) {
   const location = timezone === SG_TIMEZONE ? 'sg' : 'others'
-  return schedule[location].iosconfsg22[currentTab]
+  return schedule[location].iosconfsg21[currentTab]
 }
 
 function ScheduleSection (props) {
-  const [currentTab, setCurrentTab] = useState('workshop1')
+  const [currentTab, setCurrentTab] = useState('day2')
 
   const [currentTimezone, setCurrentTimezone] = useState(localTimezone)
   const localSchedule = selectScheduleForTab(currentTab, currentTimezone)
 
   const selectedTab = (tab) => {
     setCurrentTab(tab)
+  }
+
+  const rerenderInSgTime = () => {
     setCurrentTimezone(SG_TIMEZONE)
+    // setCurrentSchedule(sgScheduleForTab(currentTab))
+  }
+  const rerenderInLocalTime = () => {
+    setCurrentTimezone(localTimezone)
   }
 
   return (
     <>
-      <Tabs defaultSelected={'workshop1'} currentTab={selectedTab}>
-        <Tabs.Tab labelKey='workshop1'>17 January</Tabs.Tab>
-        <Tabs.Tab labelKey='workshop2'>18 January</Tabs.Tab>
-        <Tabs.Tab labelKey='day1'>20 January</Tabs.Tab>
-        <Tabs.Tab labelKey='day2'>21 January</Tabs.Tab>
+      <Tabs defaultSelected={'day2'} currentTab={selectedTab}>
+        <Tabs.Tab labelKey='workshop1'>Workshop - Day 1</Tabs.Tab>
+        <Tabs.Tab labelKey='workshop2'>Workshop - Day 2</Tabs.Tab>
+        <Tabs.Tab labelKey='day1'>Conference - Day 1</Tabs.Tab>
+        <Tabs.Tab labelKey='day2'>Conference - Day 2</Tabs.Tab>
       </Tabs>
       <p className="text-sm mx-4 sm:mx-0">
-        Times below are shown in <strong>Singapore Timezone.</strong> <br/>
-        Use <strong><a href="https://www.timeanddate.com/worldclock/converter.html" target="blank">Timezone Converter</a></strong> to convert to your local time. 
-        <br/><br/>
+        Times below are shown in your local time zone <strong>{localTimezone}</strong>.
+        {
+          (localTimezone !== SG_TIMEZONE && currentTimezone !== SG_TIMEZONE) && <a href='#' onClick={rerenderInSgTime}> Show in Singapore time</a>
+        }
+        {
+          (currentTimezone === SG_TIMEZONE && localTimezone !== SG_TIMEZONE) && <a href='#' onClick={rerenderInLocalTime}> Show in my local time</a>
+        }
       </p>
       <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
         <ScheduleTable schedule={localSchedule} tab={currentTab} {...props} />
       </div>
+      <p className="text-sm mx-4 sm:mx-0">Schedule may change without prior notice</p>
     </>
   )
 
