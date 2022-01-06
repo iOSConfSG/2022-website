@@ -12,9 +12,9 @@ const speakers = [
   },
   {
     "name": "Vivian Phung",
-    "company": "Instagram",
+    "company": "iOS Developer",
     "imageUrl": "../speakers/vivian.jpg",
-    "companyUrl": "https://www.instagram.com",
+    "companyUrl": "https://www.linkedin.com/in/vivphung/",
     "twitter": "vivianphung",
     "linkedin": "",
     "shortBio": "Vivian is an ios engineer at instagram. In her free time, she likes baking desserts, trying new foods, and organizing events!",
@@ -63,7 +63,7 @@ const speakers = [
   {
     "name": "Frank Courville",
     "company": "School of Swift",
-    "imageUrl": "../speakers/frank.jpeg",
+    "imageUrl": "../speakers/frank.jpg",
     "companyUrl": "https://www.schoolofswift.club",
     "twitter": "Frankacy",
     "linkedin": "",
@@ -73,7 +73,7 @@ const speakers = [
   {
     "name": "Bas Broek",
     "company": "WeTransfer",
-    "imageUrl": "../speakers/bas.jpeg",
+    "imageUrl": "../speakers/bas.jpg",
     "companyUrl": "https://wetransfer.com",
     "twitter": "basthomas",
     "linkedin": "",
@@ -91,16 +91,6 @@ const speakers = [
     "bio": "Tee is a self taught iOS developer who started in accounting but landed in tech. In her freetime, you can find her boxing, practicing muay thai, working on new jumprope tricks or just working out."
   },
   {
-    "name": "Danijela Vrzan",
-    "company": "Deloitte Canada",
-    "imageUrl": "../speakers/danijela.jpeg",
-    "companyUrl": "https://www2.deloitte.com/ca/en.html",
-    "twitter": "dvrzan",
-    "linkedin": "",
-    "shortBio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym.",
-    "bio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym. When not working out, she’s playing video-games, cooking, and trying to keep up with Swift updates!"
-  },
-  {
     "name": "Vincent Pradeilles",
     "company": "Worldline",
     "imageUrl": "../speakers/vincent.jpg",
@@ -113,7 +103,7 @@ const speakers = [
   {
     "name": "Pradnya Nikam",
     "company": "Rakuten Viki",
-    "imageUrl": "../speakers/pradnya.jpeg",
+    "imageUrl": "../speakers/pradnya.jpg",
     "companyUrl": "https://www.viki.com",
     "twitter": "pradnya_nikam",
     "linkedin": "",
@@ -133,22 +123,72 @@ const speakers = [
   {
     "name": "An Tran",
     "company": "Grab",
-    "imageUrl": "../speakers/antran.jpeg",
+    "imageUrl": "../speakers/antran.jpg",
     "companyUrl": "https://www.grab.com/sg",
     "twitter": "antranapp",
     "linkedin": "",
     "shortBio": "An is currently helping to build a digital Bank App at Grab. He loves sharing Swift contents on SwiftVietnam.com,  and reading rocket/space science books.",
     "bio": "An is currently helping to build a digital Bank App at Grab, the biggest super app in South East Asia. He loves sharing Swift contents on SwiftVietnam.com,  and reading rocket/space science books."
   },
-    {
+  {
+    "name": "Danijela Vrzan",
+    "company": "Deloitte Canada",
+    "imageUrl": "../speakers/danijela.jpg",
+    "companyUrl": "https://www2.deloitte.com/ca/en.html",
+    "twitter": "dvrzan",
+    "linkedin": "",
+    "shortBio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym.",
+    "bio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym. When not working out, she’s playing video-games, cooking, and trying to keep up with Swift updates!"
+  },
+  {
     "name": "Moataz Nabil",
     "company": "Bitrise",
-    "imageUrl": "../speakers/moataz.jpeg",
+    "imageUrl": "../speakers/moataz.jpg",
     "companyUrl": "https://www.bitrise.io",
     "twitter": "Moatazeldebsy",
     "linkedin": "",
     "shortBio": "Moataz is a developer advocate at Bitrise and has more than 12 years of experience across development and testing roles across industries including agriculture, telecom, healthcare, fashion, and more.",
     "bio": "Moataz is a developer advocate at Bitrise and has more than 12 years of experience across development and testing roles across industries including agriculture, telecom, healthcare, fashion, and more."
+  },
+  {
+    "name": "Omer Iqbal",
+    "company": "Sea",
+    "imageUrl": "../speakers/omer.jpg",
+    "companyUrl": "https://www.sea.com/home",
+    "twitter": "olenhad",
+    "linkedin": "",
+    "shortBio": "Omer is an iOS Engineer at Sea with a passion for using lldb to dig into private frameworks, and proselytising functional programming.",
+    "bio": "Omer is an iOS Engineer at Sea with a passion for using lldb to dig into private frameworks, and proselytising functional programming."
+  },
+  {
+    "name": "Jeroen Leenarts",
+    "company": "Stream",
+    "imageUrl": "../speakers/jeroen.jpg",
+    "companyUrl": "https://getstream.io/",
+    "twitter": "AppForce1",
+    "linkedin": "",
+    "shortBio": "Jeroen is the iOS Developer Relations Lead at Stream. He is a software developer with 20 years of experience and has focussed on iOS development for over a decade. He also runs a podcast with a focus on iOS developers called AppForce1",
+    "bio": "Jeroen is the iOS Developer Relations Lead at Stream. He is a software developer with 20 years of experience and has focussed on iOS development for over a decade. At Stream Jeroen and his team work on supporting iOS developers in creating the best possible chat end-user experience with the Stream platform. Next to that Jeroen runs the Dutch CocoaHeads for over 8 years and runs a podcast with a focus on iOS developers called AppForce1"
+  },
+  {
+    "name": "Martin Mitrevski",
+    "company": "Stream",
+    "imageUrl": "../speakers/martin.jpg",
+    "companyUrl": "https://getstream.io/",
+    "twitter": "mitrevski",
+    "linkedin": "",
+    "shortBio": "Martin is working at Stream, where he enjoys building a cool new SwiftUI chat SDK, in the open. In his spare time, he blogs at martinmitrevski.com about iOS-related tech, builds indie apps and occasionally speaks at mobile conferences.",
+    "bio": "Martin is working at Stream, where he enjoys building a cool new SwiftUI chat SDK, in the open. In his spare time, he blogs at martinmitrevski.com about iOS-related tech, builds indie apps and occasionally speaks at mobile conferences. Few years ago, he has also published a book about conversational interfaces on iOS."
+  },
+  {
+    "name": "Manuel Carrasco Molina",
+    "company": "Developer, Activist",
+    "imageUrl": "../speakers/manuel.jpg",
+    "companyUrl": "https://twitter.com/StuFFmc",
+    "twitter": "StuFFmc",
+    "linkedin": "",
+    "shortBio": "Manuel has been programming since he got his C64 in 1987. He also has been a local politician in Germany and an activist for many years. Whether for the cause of the environment or helping Refugees on the road, Manuel is eager to make an impact. He loves giving ethical talks at technical conferences.",
+    "bio": "Manuel Carrasco Molina, better known as StuFF mc, has been programming in one way or another though since he got his C64 in 1987. 10 years later he got a CS Degree and another 11 years later started developing for the Apple Platforms. Manuel has been a local politician since over a decade, sitting at various city and region council as well as board of directors for the greens in Germany. He also considers himself as an activist since many years, wether for the cause of the environment, or for helping Refugees on the road."
   },
 ]
 
