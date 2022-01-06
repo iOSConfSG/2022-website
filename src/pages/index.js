@@ -21,6 +21,8 @@ import workshopImage from "../images/iosconfsg-workshop.jpg"
 import confImage from "../images/iosconf-team.jpeg"
 import sponsorDeck from "../downloads/sponsors-deck.pdf";
 
+const allData = [...SpeakersData, ...TrainersData]
+
 function IndexPage () {
   const [showBio, setShowBio] = useState(false)
   const [selectedSpeaker, setSelectedSpeaker] = useState(null)
@@ -31,7 +33,7 @@ function IndexPage () {
   }
 
   const handleShowSpeaker = (name) => {
-    const person = SpeakersData.filter(function (speaker) {
+    const person = allData.filter(function (speaker) {
       return speaker.name === name
     })
     if (person && person.length > 0) {
