@@ -21,6 +21,8 @@ import workshopImage from "../images/iosconfsg-workshop.jpg"
 import confImage from "../images/iosconf-team.jpeg"
 import sponsorDeck from "../downloads/sponsors-deck.pdf";
 
+const allData = [...SpeakersData, ...TrainersData]
+
 function IndexPage () {
   const [showBio, setShowBio] = useState(false)
   const [selectedSpeaker, setSelectedSpeaker] = useState(null)
@@ -31,7 +33,7 @@ function IndexPage () {
   }
 
   const handleShowSpeaker = (name) => {
-    const person = SpeakersData.filter(function (speaker) {
+    const person = allData.filter(function (speaker) {
       return speaker.name === name
     })
     if (person && person.length > 0) {
@@ -149,8 +151,7 @@ function IndexPage () {
               })
             }
           </ul>
-          <br/><br/>
-          <strong>More speakers to be announced...</strong>
+          <br/>
         </div> <br></br>
         <h2 className="inline-block p-3 mb-4 text-3xl text-red-500">
           Workshop Trainers
@@ -216,7 +217,7 @@ function IndexPage () {
               Level up through workshops!
               </p>
             <p className="text-left">
-              A workshop on <strong>Find vulnerabilities in iOS Apps</strong> by Sven Schleier on Tuesday, 17 Jan 2022, 1 PM - 6 PM SGT. And <strong>Multi-platform Development with SwiftUI</strong> by Malin Sundberg on Monday, 18 Jan 2022, 9 AM - 2 PM SGT.
+              A workshop on <strong>Find vulnerabilities in iOS Apps</strong> by Sven Schleier on Tuesday, 17 Jan 2022, 1:20 PM - 6:30 PM SGT. And <strong>Multi-platform Development with SwiftUI</strong> by Malin Sundberg on Monday, 18 Jan 2022, 8:20 AM - 1:30 PM SGT.
             </p>
           </div>
         </div>

@@ -20,7 +20,7 @@ function ScheduleTable (props) {
             if (talk.speaker_name === "Organiser") {
               return (
                 <tr key={index} className={classnameFor(index)}>
-                  <td className="w-1/6 sm:w-1/6 px-1 sm:px-6 py-3 whitespace-nowrap">{talk.start_at} - {talk.end_at}</td>
+                  <td className="w-1/6 sm:w-1/6 px-1 sm:px-6 py-3 whitespace-nowrap">{talk.start_at}</td>
                   <td className="sm:w-1/3 px-1 sm:px-6 py-3 whitespace-nowrap" colSpan="2">{talk.title}</td>
                 </tr>
               )
@@ -28,7 +28,7 @@ function ScheduleTable (props) {
               if (talk.talk_type === "combinedTalk") {
                 return (
                   <tr key={index} className={classnameFor(index)}>
-                    <td className="w-1/6 sm:w-1/6 px-1 sm:px-6 py-3 whitespace-nowrap align-top">{talk.start_at} - {talk.end_at}</td>
+                    <td className="w-1/6 sm:w-1/6 px-1 sm:px-6 py-3 whitespace-nowrap align-top">{talk.start_at}</td>
                     <td className="w-1/5 px-1 sm:px-6 py-3 whitespace-nowrap align-top">
                       <div className="min-w-0 flex flex-col sm:flex-row items-center">
                         <div className="flex-shrink-0">
@@ -67,7 +67,7 @@ function ScheduleTable (props) {
               } else {
                 return (
                   <tr key={index} className={classnameFor(index)}>
-                    <td className="w-1/6 sm:w-1/6 px-1 sm:px-6 py-3 whitespace-nowrap align-top">{talk.start_at} - {talk.end_at}</td>
+                    <td className="w-1/6 sm:w-1/6 px-1 sm:px-6 py-3 whitespace-nowrap align-top">{talk.start_at}</td>
                     <td className="w-1/5 px-1 sm:px-6 py-3 whitespace-nowrap align-top">
                       <div className="min-w-0 flex flex-col sm:flex-row items-center">
                         <div className="flex-shrink-0">
