@@ -62,7 +62,7 @@ function selectScheduleForTab (currentTab, timezone) {
 }
 
 function ScheduleSection (props) {
-  const [currentTab, setCurrentTab] = useState('day2')
+  const [currentTab, setCurrentTab] = useState('day1')
 
   const [currentTimezone, setCurrentTimezone] = useState(localTimezone)
   const localSchedule = selectScheduleForTab(currentTab, currentTimezone)
@@ -81,7 +81,7 @@ function ScheduleSection (props) {
 
   return (
     <>
-      <Tabs defaultSelected={'day2'} currentTab={selectedTab}>
+      <Tabs defaultSelected={'day1'} currentTab={selectedTab}>
         <Tabs.Tab labelKey='workshop1'>Workshop - Day 1</Tabs.Tab>
         <Tabs.Tab labelKey='workshop2'>Workshop - Day 2</Tabs.Tab>
         <Tabs.Tab labelKey='day1'>Conference - Day 1</Tabs.Tab>
