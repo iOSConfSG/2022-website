@@ -12,7 +12,7 @@ const speakers = [
   },
   {
     "name": "Vivian Phung",
-    "company": "iOS Developer",
+    "company": "Instagram",
     "imageUrl": "../speakers/vivian.jpg",
     "companyUrl": "https://www.linkedin.com/in/vivphung/",
     "twitter": "vivianphung",

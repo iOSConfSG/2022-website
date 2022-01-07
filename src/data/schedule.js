@@ -257,7 +257,7 @@ const schedule = [
       "end_at": "2022-01-20T03:15:00+00:00",
       "id": 19,
       "speaker_bio": "Vivian is an ios engineer at instagram working on feed, interactions, and creation. in her free time, she likes baking desserts, trying new foods, and organizing events!",
-      "speaker_company": "iOS Developer",
+      "speaker_company": "Instagram",
       "speaker_image": "vivian",
       "speaker_name": "Vivian Phung",
       "speaker_twitter": "vivianphung",
