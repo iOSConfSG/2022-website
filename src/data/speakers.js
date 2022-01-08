@@ -14,11 +14,11 @@ const speakers = [
     "name": "Vivian Phung",
     "company": "Instagram",
     "imageUrl": "../speakers/vivian.jpg",
-    "companyUrl": "https://www.linkedin.com/in/vivphung/",
+    "companyUrl": "https://www.instagram.com",
     "twitter": "vivianphung",
-    "linkedin": "",
-    "shortBio": "Vivian is an ios engineer at instagram. In her free time, she likes baking desserts, trying new foods, and organizing events!",
-    "bio": "Vivian is an ios engineer at instagram working on feed, interactions, and creation. in her free time, she likes baking desserts, trying new foods, and organizing events!"
+    "linkedin": "https://www.linkedin.com/in/vivphung/",
+    "shortBio": "Vivian is an iOS engineer at Instagram. In her free time, she likes baking desserts, trying new foods, and organizing events!",
+    "bio": "Vivian is an iOS engineer at Instagram working on feed, interactions, and creation. in her free time, she likes baking desserts, trying new foods, and organizing events!"
   },
   {
     "name": "Marin Todorov",
@@ -127,8 +127,8 @@ const speakers = [
     "companyUrl": "https://www.grab.com/sg",
     "twitter": "antranapp",
     "linkedin": "",
-    "shortBio": "An is currently helping to build a digital Bank App at Grab. He loves sharing Swift contents on SwiftVietnam.com,  and reading rocket/space science books.",
-    "bio": "An is currently helping to build a digital Bank App at Grab, the biggest super app in South East Asia. He loves sharing Swift contents on SwiftVietnam.com,  and reading rocket/space science books."
+    "shortBio": "An is currently helping to build a digital Bank App at Grab. He loves sharing Swift contents on SwiftVietnam.com, and reading rocket/space science books.",
+    "bio": "An is currently helping to build a digital Bank App at Grab, the biggest super app in South East Asia. He loves sharing Swift contents on SwiftVietnam.com, and reading rocket/space science books."
   },
   {
     "name": "Danijela Vrzan",
@@ -138,7 +138,7 @@ const speakers = [
     "twitter": "dvrzan",
     "linkedin": "",
     "shortBio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym.",
-    "bio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym. When not working out, she’s playing video-games, cooking, and trying to keep up with Swift updates!"
+    "bio": "Danijela is an iOS Developer and an article author for raywenderlich.com. In her free time, you can find her hiking or lifting heavy weights at the gym. When not working out, she's playing video-games, cooking, and trying to keep up with Swift updates!"
   },
   {
     "name": "Moataz Nabil",
