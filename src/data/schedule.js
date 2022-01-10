@@ -547,7 +547,7 @@ const schedule = [
       "speaker2_name": "Martin Mitrevski",
       "speaker2_bio": "Martin is working at Stream, where he enjoys building a cool new SwiftUI chat SDK, in the open. In his spare time, he blogs at martinmitrevski.com about iOS-related tech, builds indie apps and occasionally speaks at mobile conferences.",
       "speaker2_twitter": "mitrevski",
-      "talk_description": "At Stream, Jereon and Martin created and launched a SwiftUI Chat SDK in the time span of a few months. In this talk, they will share what makes their SDK modern, why they chose to go this route, and what they think you should do in your code to create reusable components with maximum flexibility for the users of your components.",
+      "talk_description": "At Stream, Jeroen and Martin created and launched a SwiftUI Chat SDK in the time span of a few months. In this talk, they will share what makes their SDK modern, why they chose to go this route, and what they think you should do in your code to create reusable components with maximum flexibility for the users of your components.",
       "talk_type": "combinedTalk",
       "title": "Building and Launching a Modern SwiftUI SDK"
     },
