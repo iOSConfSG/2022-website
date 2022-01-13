@@ -645,9 +645,9 @@ const schedule = [
       "speaker_image": "paul",
       "speaker_name": "Paul Hudson",
       "speaker_twitter": "twostraws",
-      "talk_description": "Something super exciting 🤩",
+      "talk_description": "SwiftUI is the fastest way to build apps using all the system-standard components we know and love, but in this talk we're going to stop for a moment and try to build something fun, beautiful, and unlike anything you've seen before.",
       "talk_type": "normalTalk",
-      "title": "Coming Soon"
+      "title": "Special effects with SwiftUI"
     },
     {
       "activity": "iosconfsg22.day2",
