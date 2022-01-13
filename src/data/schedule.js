@@ -261,9 +261,9 @@ const schedule = [
       "speaker_image": "vivian",
       "speaker_name": "Vivian Phung",
       "speaker_twitter": "vivianphung",
-      "talk_description": "Something super exciting 🤩",
+      "talk_description": "Since IGListKits inception, developers at Instagram have been using it throughout the app - feed, explore, stories, and more. In this talk, Vivian will share the newest updates and why you should consider it.",
       "talk_type": "normalTalk",
-      "title": "Coming Soon"
+      "title": "IGListKit in 2022"
     },
     {
       "activity": "iosconfsg22.day1",
