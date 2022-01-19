@@ -11,7 +11,7 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "",
       "talk_type": "registration",
-      "title": "Check-in 💻"
+      "title": "Check-in 💻 - Find your favorite Zoom's video filter for photo session!"
     },
     {
       "activity": "iosconfsg22.workshop1",
@@ -165,7 +165,7 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "",
       "talk_type": "registration",
-      "title": "Energy Boost ⚡️"
+      "title": "Morning Boost ⚡️ - say Hi to everyone  👩🏻‍💻🧑🏽‍💻🧑🏾‍💻👩🏼‍💻, don't be shy!"
     },
     {
       "activity": "iosconfsg22.day1",
@@ -221,7 +221,7 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "10 minutes discussion",
       "talk_type": "shortbreak",
-      "title": "Participant Discussions 💬"
+      "title": "Developer's Discussions 💬, you'll be magically transported into smaller pods to get to know each other."
     },
     {
       "activity": "iosconfsg22.day1",
@@ -249,7 +249,7 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "",
       "talk_type": "registration",
-      "title": "Energy Boost ⚡️"
+      "title": "Inspiration Boost ⚡️"
     },
     {
       "activity": "iosconfsg22.day1",
@@ -291,7 +291,7 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "",
       "talk_type": "shortbreak",
-      "title": "Grab a Bite 🍽 (50 Mins Break)"
+      "title": "📸 Photo session to make history, pick a Zoom's video filter! then grab a Bite 🍽 (50 Mins Break)"
     },
     {
       "activity": "iosconfsg22.day1",
@@ -304,8 +304,8 @@ const schedule = [
       "speaker_name": "Organiser",
       "speaker_twitter": "iosconfsg",
       "talk_description": "Quiz and Games",
-      "talk_type": "registration",
-      "title": "Energy Boost ⚡️"
+      "talk_type": "energyboost",
+      "title": "Kahoot time⚡️! Watch out for the game pin and win prizes!"
     },
     {
       "activity": "iosconfsg22.day1",
@@ -345,9 +345,9 @@ const schedule = [
       "speaker_image": "omer",
       "speaker_name": "Omer Iqbal",
       "speaker_twitter": "olenhad",
-      "talk_description": "Something super-exciting 🤯",
+      "talk_description": "Showing images in our applications is often a core experience, and one we often take for granted. This talk will take a dive into the image rendering pipeline on iOS. It will also highlight subtle performance issues you might run into, as well as advice on how to bypass them.",
       "talk_type": "lightningTalk",
-      "title": "Coming soon ⚡️"
+      "title": "Optimising image heavy applications"
     },
 		{
       "activity": "iosconfsg22.day1",
@@ -403,7 +403,7 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "Stay tuned with the announcement in the morning!",
       "talk_type": "shortbreak",
-      "title": "Closing with Games 🕵🏼‍♂️ 🕵🏼‍♀️ 🖱 with 🎁 "
+      "title": "⭕️ 🔺 🟥   Join the Squid Game themed virtual escape room! Limited seats available, you must RSVP through the links provided. The game requires you to escape in 60 mins + 30 mins briefing."
     },
   
     {
@@ -432,7 +432,7 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "",
       "talk_type": "registration",
-      "title": "Energy Boost ⚡️"
+      "title": "After lunch Boost ⚡️ - The main room is open for questions or showcase what you've done!"
     },
     {
       "activity": "iosconfsg22.day2",
@@ -514,7 +514,7 @@ const schedule = [
       "speaker_image": "bas",
       "speaker_name": "Bas Broek",
       "speaker_twitter": "basthomas",
-      "talk_description": "Pull request (and their associated reviews) are an integral part of a developer’s life. And for good reasons! While some may love them, and others somewhat less so, there’s a good chance you’re spending quite some time on reviews as part of your project, job, or side project. Therefore, it’s crucial to make our pull request experience great. And kind. And welcoming. Bas will share some thoughts on what he has learned about making the pull request experience awesome.",
+      "talk_description": "Pull request (and their associated reviews) are an integral part of a developer's life. And for good reasons! While some may love them, and others somewhat less so, there's a good chance you're spending quite some time on reviews as part of your project, job, or side project. Therefore, it's crucial to make our pull request experience great. And kind. And welcoming. Bas will share some thoughts on what he has learned about making the pull request experience awesome.",
       "talk_type": "normalTalk",
       "title": "Effective Pull Request Reviews"
     },
@@ -633,7 +633,7 @@ const schedule = [
       "speaker_twitter": "iosconfsg",
       "talk_description": "",
       "talk_type": "registration",
-      "title": "Are You Sherlock? - Compete for the top 3 spots 🏅"
+      "title": "Kahoot time - Compete for the top 3 spots 🏅! And then ... another history making! Use your favorite Zoom's video filter and swag 😎 📸 "
     },
     {
       "activity": "iosconfsg22.day2",
