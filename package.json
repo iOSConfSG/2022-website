@@ -19,6 +19,7 @@
     "gatsby-plugin-offline": "3.2.21",
     "gatsby-plugin-postcss": "2.3.11",
     "gatsby-plugin-react-helmet": "3.3.10",
+    "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-sharp": "2.6.24",
     "luxon": "^1.25.0",
     "moment": "^2.29.1",

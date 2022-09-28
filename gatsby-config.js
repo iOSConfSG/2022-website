@@ -45,5 +45,6 @@ module.exports = {
         pixelId: "2358779474344408",
       },
     },
+    `gatsby-plugin-remove-serviceworker`,
   ],
 };
